@@ -22,13 +22,13 @@
   }
 
   .footer__text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-add;
     color: $color-white;
   }
 
   .navigation__link {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-add;
     font-size: 16px;
     color: $color-white;
     transition: 0.4s ease-in-out;

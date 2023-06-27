@@ -54,7 +54,7 @@
 }
 .header .navigation__link {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   color: #000000;
   transition: 0.4s ease-in-out;
@@ -87,7 +87,7 @@
 
 .action__text {
   color: #FFFFFF;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 40px;
   width: 450px;
   text-align: center;
@@ -112,7 +112,7 @@
 
 .cards__text {
   margin-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 15px;
 }
 
@@ -125,7 +125,7 @@
   gap: 20px;
 }
 .description .description__text {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 22px;
 }
 .description .description__text_subtitle {
@@ -160,12 +160,12 @@
   gap: 15px;
 }
 .footer .footer__text {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   color: #FFFFFF;
 }
 .footer .navigation__link {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   color: #FFFFFF;
   transition: 0.4s ease-in-out;
