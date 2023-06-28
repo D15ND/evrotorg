@@ -6,6 +6,10 @@
 
 .wrapper {
   margin: 0 auto;
-  // min-width: 1280px;
-  // mobile and other screens
+  @include media-tablet {
+    width: 760px;
+  }
+  @include media-mobile {
+    width: 470px;
+  }
 }

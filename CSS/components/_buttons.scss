@@ -18,4 +18,14 @@
     background-color: $color-white;
     border: 2px solid $color-white;
   }
+  @include media-tablet {
+    font-size: 20px;
+    height: 40px;
+    width: 160px;
+  }
+  @include media-mobile {
+    font-size: 15px;
+    height: 30px;
+    width: 115px;
+  }
 }

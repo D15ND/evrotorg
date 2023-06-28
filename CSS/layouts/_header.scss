@@ -5,10 +5,25 @@
     width: 1000px;
     display: flex;
     justify-content: space-between;
+    @include media-tablet {
+      width: 760px;
+    }
+    @include media-mobile {
+      width: 470px;
+    }
   }
 
   .logo__img {
     width: 30vh;
+    @include media-netbook {
+      width: 40vh;
+      margin-left: 30px;
+    }
+    @include media-mobile {
+      margin-left: 5px;
+      width: 15vh;
+      margin-top: 7px;
+    }
   }
 
   .header__navigation {
@@ -36,6 +51,12 @@
     }
     &:hover {
       color: $color-green;
+    }
+    @include media-netbook {
+      font-size: 14px;
+    }
+    @include media-mobile {
+      font-size: 8px;
     }
   }
 }
