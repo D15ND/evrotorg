@@ -96,18 +96,18 @@
 
 .cards {
   margin-bottom: 20px;
+  padding: 0 10px;
 }
 
 .cards__list {
   display: flex;
   flex-wrap: nowrap;
+  gap: 10px;
 }
 
 .cards__title {
   display: flex;
   align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .cards__text {
