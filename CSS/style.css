@@ -63,12 +63,12 @@
 }
 @media (max-width: 768px) {
   .header .wrapper {
-    width: 760px;
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
   .header .wrapper {
-    width: 470px;
+    width: 100%;
   }
 }
 .header .logo__img {
@@ -302,12 +302,12 @@
 }
 @media (max-width: 768px) {
   .footer .wrapper {
-    width: 760px;
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
   .footer .wrapper {
-    width: 470px;
+    width: 100%;
   }
 }
 .footer .footer__navigation {

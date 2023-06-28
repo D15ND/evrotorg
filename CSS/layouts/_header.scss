@@ -6,10 +6,12 @@
     display: flex;
     justify-content: space-between;
     @include media-tablet {
-      width: 760px;
+      // width: 760px;
+      width: 100%;
     }
     @include media-mobile {
-      width: 470px;
+      // width: 470px;
+      width: 100%;
     }
   }
 
